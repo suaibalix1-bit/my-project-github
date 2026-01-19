@@ -40,8 +40,8 @@ header{
 
 
 nav{
-    width: 71%;
-    max-width 1140px;
+    width: 70%;
+    max-width: 1140px;
     /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
@@ -65,9 +65,16 @@ nav .menu a{
     text-decoration: none;
 }
 
-
-
-#banner{
+#banner {
     border: 1px solid red;
     margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
 }
