@@ -78,3 +78,18 @@ nav .menu a{
     font-weight: 600px;
     color: #474747;
 }
+
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+
