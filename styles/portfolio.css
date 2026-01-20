@@ -30,12 +30,13 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
-.section-heading{
+.section-heading {
     max-width: 827px;
     text-align: center;
-    color: #757575;
+   
 
 }
 
@@ -43,6 +44,7 @@
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 30px;
+    color: #757575;
 }
 
 .section-heading h2{
@@ -53,6 +55,9 @@
 
 header{
     background-color: #fff8f3;
+    background: url("../images/developer.png") , url("../images/header_bg.png"), #fff8f3 ;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 
@@ -84,17 +89,22 @@ nav .menu a{
 }
 
 #banner {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 47px 38px 0 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+#banner .banner-content{
+    max-width: 585px;
+}
+
 #banner .banner-content h2{
     font-size: 45px;
     font-weight: 600px;
     color: #474747;
+    margin-bottom: 5px;
 }
 
 #banner .banner-content h1{
@@ -108,7 +118,7 @@ nav .menu a{
 #banner .banner-content p{
     font-size: 18px;
     color: #757575;
-    line-height: 30px;;
+    line-height: 30px;
 }
 
 
@@ -116,18 +126,32 @@ nav .menu a{
     padding-top: 130px;
 }
 
-#about .about-container{
+#about .about-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff8f3;
     padding: 131px 156px;
-
-
 }
 
 
-#about .about-container .about-info {
+
+
+
+#banner .banner-image img{
+    max-width: 585;
+    vertical-align: middle;
+}
+
+#about .about-container .about-info{
     display: flex;
+    justify-content: space-around;
+}
+
+
+.about-info .info-card p{
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
 }
